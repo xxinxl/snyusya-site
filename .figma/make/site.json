@@ -1,0 +1,12 @@
+{
+  "title": "Снюся — маленькая кошка, большая любовь",
+  "language": "ru",
+  "description": "Experience the whimsical world of Snyusya, a charming cat fan club site featuring interactive elements, playful facts, and delightful visuals for cat lovers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
