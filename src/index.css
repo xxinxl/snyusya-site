@@ -17,11 +17,11 @@ body { font-family: var(--font-body); background: var(--color-milk); color: var(
 
 .floor-taster-label {
   box-sizing: border-box;
-  width: clamp(160px, 22vw, 224px);
+  width: clamp(184px, 26vw, 248px);
   padding: 14px 12px;
   font-size: clamp(10px, 1.2vw, 13px);
   line-height: 1.5;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
   text-wrap: balance;
 }
 

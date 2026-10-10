@@ -220,7 +220,7 @@ function Hero({ pets, setPets, onSecret }: { pets: number; setPets: (f: (n: numb
           <Tip text="Носик для поцелуев. Строго по записи." className="left-[57%] top-[40%] h-10 w-10 -translate-x-1/2" ><span className="block h-full w-full rounded-full" /></Tip>
           <Tip text="Белые носочки. Стирать нельзя, только любоваться." className="bottom-[2%] left-[42%] h-16 w-28"><span className="block h-full w-full" /></Tip>
           {reaction && <div key={reaction + pets} className="absolute -top-4 left-1/2 z-20 -translate-x-1/2 whitespace-nowrap rounded-full border-2 border-plum bg-white px-4 py-2 font-hand text-2xl text-plum shadow-lg" style={{ animation: 'pop .45s cubic-bezier(.34,1.8,.5,1)' }}>{reaction}</div>}
-          <Tip text="Сертификат подлинный. Выдан самой себе." className="wiggle right-2 top-[10%] z-20 sm:right-4 lg:-right-20" style={{ ['--r' as string]: '8deg' }}>
+          <Tip text="Сертификат подлинный. Выдан самой себе." className="wiggle right-2 top-[2%] z-20 sm:right-4 sm:top-[10%] lg:-right-20" style={{ ['--r' as string]: '8deg' }}>
             <span className="floor-taster-label block rotate-6 rounded-[22px] border-2 border-plum bg-rose text-center font-display font-bold text-plum shadow-[4px_4px_0_#4a2160]">Профессиональный дегустатор пола</span>
           </Tip>
           <Tip text="Это лапа. Она тоже хочет внимания." className="floaty -left-6 bottom-[16%] z-20 sm:-left-20" style={{ ['--r' as string]: '-14deg' }}><Paw s={64} c="#fff" /></Tip>
